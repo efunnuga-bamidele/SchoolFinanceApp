@@ -1,0 +1,307 @@
+- 14:56:59.406 INFO: --------------------------------------------------------
+- 14:56:59.406 INFO: Started application
+- 14:56:59.406 INFO: Logging to: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log
+- 14:56:59.406 INFO: Log level = DEBUG4
+- 14:56:59.468 INFO: Starting Mongoose 3.9c web server
+- 14:56:59.468 INFO: WWW directory: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\app
+- 14:56:59.468 INFO: Index files: index.html,index.php
+- 14:56:59.468 INFO: CGI interpreter: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\php\php-cgi.exe
+- 14:56:59.484 INFO: CGI pattern: **.php$
+- 14:56:59.484 INFO: CGI environment variables set: TMP=C:\Users\Dacodin\AppData\Local\Temp\,TEMP=C:\Users\Dacodin\AppData\Local\Temp\,TMPDIR=C:\Users\Dacodin\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 14:57:00.718 INFO: Web server url: http://127.0.0.1:52951/
+- 14:57:00.562 INFO: remote_debugging_port = 57286
+- 14:57:01.906 DEBUG: Command line string for the browser process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --remote-debugging-port=57286 --no-sandbox
+- 14:57:15.531 DEBUG: App::OnContextInitialized()
+- 14:57:15.531 DEBUG: Window max width/height = 1286/690
+- 14:57:15.531 DEBUG: GetBrowserWindow(): not found, hwnd = 1051690
+- 14:57:15.531 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:57:15.531 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:57:15.531 DEBUG: StoreBrowserWindow(): hwnd = 1051690
+- 14:57:15.562 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 14:57:16.718 DEBUG: ClientHandler::OnAfterCreated()
+- 14:57:16.718 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:57:16.718 INFO: DPI, ppix = 96, ppiy = 96
+- 14:57:16.718 INFO: DPI, browser zoom level = 0
+- 14:57:16.734 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:57:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --type=gpu-process --channel="8412.0.1622430584\2059339811" --no-sandbox --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --disable-d3d11 --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,5,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5063 --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" /prefetch:822062411
+- 14:57:16.000 DEBUG: Command line string for the renderer process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --channel="8412.1.402692082\573455154" /prefetch:673131151
+- 14:57:17.297 DEBUG: OnBrowserCreated()
+- 14:58:27.125 DEBUG: OnContextCreated()
+[1115/145827:INFO:CONSOLE(9)] "The key "shrink-to-fit" is not recognized and ignored.", source: http://127.0.0.1:52951/ (9)
+- 14:58:27.531 INFO: GET 200 /
+- 14:58:28.031 INFO: GET 200 /style.css
+- 14:58:28.296 INFO: GET 200 /css/responsive.css
+- 14:58:28.328 INFO: GET 200 /img/bg-img/logo.png
+- 14:58:28.390 INFO: GET 200 /img/bg-img/graph-963016_960_720.png
+- 14:58:29.734 INFO: GET 200 /js/bootstrap.min.js
+- 14:58:29.734 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 14:58:29.750 INFO: GET 200 /js/popper.min.js
+- 14:58:29.187 INFO: GET 200 /css/bootstrap.css
+- 14:58:29.203 INFO: GET 200 /css/bootstrap.min.css
+- 14:58:35.171 INFO: GET 200 /css/magnific-popup.css
+- 14:58:35.187 INFO: GET 200 /css/animate.css
+- 14:58:35.343 INFO: GET 200 /css/owl.carousel.min.css
+- 14:58:35.562 INFO: GET 200 /css/slick.css
+- 14:58:36.671 INFO: GET 200 /css/themify-icons.css
+- 14:58:36.671 INFO: GET 200 /css/font-awesome.min.css
+- 14:58:36.000 INFO: GET 200 /js/slick.min.js
+- 14:58:36.015 INFO: GET 200 /css/ionicons.min.css
+- 14:58:36.015 INFO: GET 200 /js/plugins.js
+- 14:58:37.812 INFO: GET 200 /js/footer-reveal.min.js
+- 14:58:37.859 INFO: GET 200 /js/active.js
+- 14:58:37.328 INFO: GET 200 /img/bg-img/welcome-bg.png
+[1115/145838:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52951/js/active.js (68)
+- 14:58:41.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52951/
+- 13:15:49.062 INFO: --------------------------------------------------------
+- 13:15:49.078 INFO: Started application
+- 13:15:49.078 INFO: Logging to: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log
+- 13:15:49.078 INFO: Log level = DEBUG4
+- 13:15:49.078 INFO: Starting Mongoose 3.9c web server
+- 13:15:49.078 INFO: WWW directory: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\app
+- 13:15:49.078 INFO: Index files: index.html,index.php
+- 13:15:49.078 INFO: CGI interpreter: C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\php\php-cgi.exe
+- 13:15:49.078 INFO: CGI pattern: **.php$
+- 13:15:49.078 INFO: CGI environment variables set: TMP=C:\Users\Dacodin\AppData\Local\Temp\,TEMP=C:\Users\Dacodin\AppData\Local\Temp\,TMPDIR=C:\Users\Dacodin\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 13:15:49.109 INFO: Web server url: http://127.0.0.1:52747/
+- 13:15:49.125 INFO: remote_debugging_port = 53377
+- 13:15:49.203 DEBUG: Command line string for the browser process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --remote-debugging-port=53377 --no-sandbox
+- 13:15:50.921 DEBUG: App::OnContextInitialized()
+- 13:15:50.921 DEBUG: Window max width/height = 1286/690
+- 13:15:50.921 DEBUG: GetBrowserWindow(): not found, hwnd = 1510816
+- 13:15:50.921 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:15:50.921 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:15:50.921 DEBUG: StoreBrowserWindow(): hwnd = 1510816
+- 13:15:50.937 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 13:15:50.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --type=gpu-process --channel="940.0.786945618\16156328" --no-sandbox --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --disable-d3d11 --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,5,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5063 --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" /prefetch:822062411
+- 13:15:51.312 DEBUG: ClientHandler::OnAfterCreated()
+- 13:15:51.312 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:15:51.312 INFO: DPI, ppix = 96, ppiy = 96
+- 13:15:51.312 INFO: DPI, browser zoom level = 0
+- 13:15:51.000 DEBUG: Command line string for the renderer process: "C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\Anchor Accounting Package.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Dacodin\Documents\WorkProjects\Project Source FIles\FinanceApp\debug.log" --channel="940.1.845804862\1661211863" /prefetch:673131151
+- 13:15:51.843 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:15:53.203 DEBUG: OnBrowserCreated()
+- 13:15:59.390 INFO: GET 200 /
+- 13:15:59.969 DEBUG: OnContextCreated()
+[1210/131559:INFO:CONSOLE(9)] "The key "shrink-to-fit" is not recognized and ignored.", source: http://127.0.0.1:52747/ (9)
+- 13:15:59.875 INFO: GET 200 /style.css
+- 13:15:59.890 INFO: GET 200 /css/responsive.css
+- 13:15:59.937 INFO: GET 200 /img/bg-img/logo.png
+- 13:15:59.937 INFO: GET 200 /img/bg-img/graph-963016_960_720.png
+- 13:15:59.015 INFO: GET 200 /js/plugins.js
+- 13:15:59.015 INFO: GET 200 /js/slick.min.js
+- 13:15:59.015 INFO: GET 200 /js/popper.min.js
+- 13:15:59.031 INFO: GET 200 /js/jquery-2.2.4.min.js
+- 13:15:59.031 INFO: GET 200 /js/footer-reveal.min.js
+- 13:15:59.031 INFO: GET 200 /js/bootstrap.min.js
+- 13:16:00.125 INFO: GET 200 /js/active.js
+- 13:16:00.218 INFO: GET 200 /css/animate.css
+- 13:16:00.218 INFO: GET 200 /css/bootstrap.css
+- 13:16:00.234 INFO: GET 200 /css/bootstrap.min.css
+- 13:16:00.234 INFO: GET 200 /css/owl.carousel.min.css
+- 13:16:00.281 INFO: GET 200 /css/slick.css
+- 13:16:00.281 INFO: GET 200 /css/magnific-popup.css
+- 13:16:00.281 INFO: GET 200 /css/font-awesome.min.css
+- 13:16:00.281 INFO: GET 200 /css/themify-icons.css
+- 13:16:00.296 INFO: GET 200 /css/ionicons.min.css
+[1210/131601:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:16:02.046 INFO: GET 200 /img/bg-img/welcome-bg.png
+- 13:16:02.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/
+- 13:17:03.171 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/
+- 13:17:03.766 DEBUG: OnContextCreated()
+- 13:17:03.593 INFO: GET 200 /register.php
+[1210/131703:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:17:03.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/register.php
+- 13:17:48.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/register.php
+- 13:17:49.484 INFO: POST 200 /register.php
+- 13:17:49.688 DEBUG: OnContextCreated()
+- 13:17:49.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/register.php
+- 13:17:49.546 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/register.php
+- 13:17:49.546 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/register.php
+- 13:17:49.063 DEBUG: OnContextCreated()
+- 13:17:49.890 INFO: GET 200 /login.php
+[1210/131749:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:17:49.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/login.php
+- 13:17:57.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/login.php
+- 13:17:57.969 DEBUG: OnContextCreated()
+- 13:17:57.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/login.php
+- 13:17:57.781 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/login.php
+- 13:17:57.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/login.php
+- 13:17:57.796 INFO: POST 200 /login.php
+- 13:17:58.375 DEBUG: OnContextCreated()
+- 13:17:58.203 INFO: GET 200 /dashboard.php
+- 13:17:58.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/dashboard.php
+- 13:17:58.203 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/dashboard.php
+- 13:17:58.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/dashboard.php
+- 13:17:58.969 DEBUG: OnContextCreated()
+- 13:17:58.796 INFO: GET 200 /licence.php
+- 13:17:58.828 INFO: GET 200 /js/jquery-3.3.1.js
+- 13:17:58.843 INFO: GET 200 /css/jquery.dataTables.min.css
+- 13:17:58.843 INFO: GET 200 /css/jquery-ui.css
+- 13:17:58.843 INFO: GET 200 /js/jquery.dataTables.min.js
+- 13:17:58.859 INFO: GET 200 /js/jquery.formatCurrency-1.4.0.js
+- 13:17:58.859 INFO: GET 200 /js/jquery.maskMoney.js
+- 13:17:58.859 INFO: GET 200 /js/dataTables.jqueryui.min.js
+- 13:17:58.859 INFO: GET 200 /css/buttons.jqueryui.min.css
+- 13:17:58.875 INFO: GET 200 /css/dataTables.jqueryui.min.css
+- 13:17:58.906 INFO: GET 200 /js/dataTables.buttons.min.js
+- 13:17:58.906 INFO: GET 200 /js/jszip.min.js
+- 13:17:58.937 INFO: GET 200 /js/buttons.jqueryui.min.js
+- 13:17:58.046 INFO: GET 200 /js/pdfmake.min.js
+- 13:17:59.125 INFO: GET 200 /js/vfs_fonts.js
+- 13:17:59.140 INFO: GET 404 /js/buttons.colVis.min.j
+- 13:17:59.156 INFO: GET 200 /js/buttons.print.min.js
+- 13:17:59.156 INFO: GET 200 /js/buttons.html5.min.js
+- 13:17:59.156 INFO: GET 200 /js/buttons.flash.min.js
+[1210/131759:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/131759:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:18:00.328 INFO: GET 200 /fonts/fontawesome-webfont.woff?v=4.7.0
+- 13:18:00.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:18:29.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:18:30.453 DEBUG: OnContextCreated()
+- 13:18:30.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/dashboard.php
+- 13:18:30.265 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/dashboard.php
+- 13:18:30.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/dashboard.php
+- 13:18:30.281 INFO: GET 200 /dashboard.php
+- 13:18:30.719 DEBUG: OnContextCreated()
+- 13:18:30.546 INFO: GET 200 /licence.php
+- 13:18:30.671 INFO: GET 404 /js/buttons.colVis.min.j
+[1210/131830:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/131830:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:18:30.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:18:33.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:18:34.656 DEBUG: OnContextCreated()
+- 13:18:34.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/payroll.php
+- 13:18:34.468 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/payroll.php
+- 13:18:34.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/payroll.php
+- 13:18:34.531 INFO: GET 200 /payroll.php
+- 13:18:34.000 DEBUG: OnContextCreated()
+- 13:18:34.828 INFO: GET 200 /licence.php
+- 13:18:34.984 INFO: GET 404 /js/buttons.colVis.min.j
+[1210/131835:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/131835:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:18:35.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:18:49.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:18:49.656 DEBUG: OnContextCreated()
+- 13:18:49.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/settings.php
+- 13:18:49.468 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/settings.php
+- 13:18:49.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/settings.php
+- 13:18:49.484 INFO: GET 200 /settings.php
+- 13:18:49.969 DEBUG: OnContextCreated()
+- 13:18:49.796 INFO: GET 200 /licence.php
+- 13:18:49.968 INFO: GET 404 /js/buttons.colVis.min.j
+[1210/131850:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/131850:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:18:50.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:33:17.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:33:17.109 DEBUG: OnContextCreated()
+- 13:33:17.937 INFO: GET 200 /dashboard.php
+- 13:33:18.078 INFO: GET 200 /js/Chart.min.js
+- 13:33:18.078 INFO: GET 200 /js/Chart.bundle.min.js
+- 13:33:18.078 INFO: GET 200 /js/utils.js
+- 13:33:18.093 INFO: GET 200 /app.js
+- 13:33:18.093 INFO: GET 200 /js/Chart.js
+- 13:33:18.109 INFO: GET 200 /js/Chart.bundle.js
+- 13:33:18.140 INFO: GET 200 /css/dataTables.bootstrap4.min.css
+- 13:33:18.156 INFO: GET 200 /api.js
+- 13:33:18.203 INFO: GET 200 /css/buttons.bootstrap4.min.css
+[1210/133318:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133318:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:33:18.046 INFO: GET 200 /fonts/ionicons.ttf?v=2.0.0
+- 13:33:19.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/dashboard.php
+- 13:33:19.296 INFO: GET 200 /data.php
+[1210/133319:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/app.js (7)
+- 13:33:19.359 INFO: GET 200 /api.php
+[1210/133319:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/api.js (7)
+- 13:33:33.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/dashboard.php
+- 13:33:33.812 INFO: GET 200 /dashboard.php
+- 13:33:33.031 DEBUG: OnContextCreated()
+[1210/133334:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133334:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:33:34.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/dashboard.php
+- 13:33:34.578 INFO: GET 200 /data.php
+- 13:33:34.578 INFO: GET 200 /api.php
+[1210/133334:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/app.js (7)
+[1210/133334:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/api.js (7)
+- 13:33:35.296 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/dashboard.php
+- 13:33:35.781 DEBUG: OnContextCreated()
+- 13:33:35.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/payroll.php
+- 13:33:35.609 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/payroll.php
+- 13:33:35.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/payroll.php
+- 13:33:35.625 INFO: GET 200 /payroll.php
+- 13:33:35.031 DEBUG: OnContextCreated()
+- 13:33:35.843 INFO: GET 200 /licence.php
+- 13:33:35.000 INFO: GET 404 /js/buttons.colVis.min.j
+[1210/133336:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133336:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:33:36.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:33:38.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:33:38.844 DEBUG: OnContextCreated()
+- 13:33:38.671 INFO: GET 200 /dashboard.php
+[1210/133338:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133338:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:33:38.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/dashboard.php
+- 13:33:39.250 INFO: GET 200 /data.php
+- 13:33:39.250 INFO: GET 200 /api.php
+[1210/133339:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/api.js (7)
+[1210/133339:INFO:CONSOLE(7)] "", source: http://127.0.0.1:52747/app.js (7)
+- 13:34:42.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/dashboard.php
+- 13:34:43.234 DEBUG: OnContextCreated()
+- 13:34:43.046 INFO: GET 200 /settings.php
+[1210/133443:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:34:43.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/settings.php
+- 13:34:50.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/settings.php
+- 13:34:50.094 DEBUG: OnContextCreated()
+- 13:34:50.906 INFO: GET 200 /settings/class/form.php
+- 13:34:50.015 INFO: GET 200 /js/dataTables.bootstrap4.min.js
+- 13:34:51.062 INFO: GET 200 /js/buttons.colVis.min.js
+- 13:34:51.062 INFO: GET 200 /js/buttons.bootstrap4.min.js
+[1210/133451:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133451:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:34:51.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/settings/class/form.php
+- 13:34:55.171 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/settings/class/form.php
+- 13:34:55.578 DEBUG: OnContextCreated()
+- 13:34:55.390 INFO: GET 200 /settings.php
+[1210/133455:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:34:55.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/settings.php
+- 13:35:09.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/settings.php
+- 13:35:09.953 DEBUG: OnContextCreated()
+[1210/133509:INFO:CONSOLE(9)] "The key "shrink-to-fit" is not recognized and ignored.", source: http://127.0.0.1:52747/index.php (9)
+- 13:35:09.765 INFO: GET 200 /index.php
+[1210/133509:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:35:09.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/index.php
+- 13:39:22.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/index.php
+- 13:39:23.578 DEBUG: OnContextCreated()
+- 13:39:23.406 INFO: GET 200 /stu_reg.php
+- 13:39:23.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/stu_reg.php
+- 13:39:23.406 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52747/stu_reg.php
+- 13:39:23.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/stu_reg.php
+- 13:39:23.859 DEBUG: OnContextCreated()
+- 13:39:23.687 INFO: GET 200 /licence.php
+- 13:39:23.921 INFO: GET 404 /js/buttons.colVis.min.j
+[1210/133924:INFO:CONSOLE(9857)] "Uncaught TypeError: Object function (){return n[m]("refresh")} has no method 'indexOf'", source: http://127.0.0.1:52747/js/jquery-3.3.1.js (9857)
+[1210/133924:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:39:24.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/licence.php
+- 13:42:26.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/licence.php
+- 13:42:26.094 DEBUG: OnContextCreated()
+- 13:42:26.921 INFO: GET 200 /settings.php
+[1210/134227:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:42:27.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/settings.php
+- 13:43:33.421 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/settings.php
+- 13:43:33.875 DEBUG: OnContextCreated()
+- 13:43:33.687 INFO: GET 200 /logout.php
+- 13:43:33.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/logout.php
+- 13:43:33.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52747/logout.php
+- 13:43:33.156 DEBUG: OnContextCreated()
+- 13:43:33.984 INFO: GET 200 /login.php
+[1210/134334:INFO:CONSOLE(68)] "Uncaught SyntaxError: Duplicate data property in object literal not allowed in strict mode", source: http://127.0.0.1:52747/js/active.js (68)
+- 13:43:34.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52747/login.php
+- 13:43:36.406 DEBUG: WM_DESTROY
+- 13:43:36.406 DEBUG: RemoveBrowserWindow(): hwnd = 1510816
+- 13:43:36.406 INFO: Stopping Mongoose web server
+- 13:43:36.406 DEBUG: Mongoose webserver stopped immediately
+- 13:43:36.406 DEBUG: RemoveBrowserWindow(): hwnd = 3673396
+- 13:43:36.406 DEBUG: GetBrowserWindow(): not found, hwnd = 3673396
+- 13:43:36.406 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:43:36.828 DEBUG: OnBrowserDestroyed()
+- 13:43:36.781 INFO: Ended application
+- 13:43:36.781 INFO: --------------------------------------------------------

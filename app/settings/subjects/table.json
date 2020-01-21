@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "item_name": "MATHEMATICS",
+        "status": "checked"
+    },
+    {
+        "id": "2",
+        "item_name": "ENGLISH",
+        "status": "checked"
+    },
+    {
+        "id": "3",
+        "item_name": "CRK",
+        "status": "checked"
+    },
+    {
+        "id": "4",
+        "item_name": "BIOLOGY",
+        "status": "checked"
+    },
+    {
+        "id": "5",
+        "item_name": "CHEMISTRY",
+        "status": "checked"
+    },
+    {
+        "id": "6",
+        "item_name": "PHYSICS",
+        "status": "checked"
+    },
+    {
+        "id": "7",
+        "item_name": "PHE",
+        "status": "checked"
+    },
+    {
+        "id": "8",
+        "item_name": "BASIC SCIENCE",
+        "status": "checked"
+    },
+    {
+        "id": "9",
+        "item_name": "GEOGRAPHY",
+        "status": "checked"
+    },
+    {
+        "id": "10",
+        "item_name": "ITEM 10",
+        "status": "checked"
+    },
+    {
+        "id": "11",
+        "item_name": "ITEM 11",
+        "status": "checked"
+    },
+    {
+        "id": "12",
+        "item_name": "ITEM 12",
+        "status": "checked"
+    },
+    {
+        "id": "13",
+        "item_name": "ITEM 13",
+        "status": "checked"
+    },
+    {
+        "id": "14",
+        "item_name": "ITEM 14",
+        "status": "checked"
+    },
+    {
+        "id": "15",
+        "item_name": "ITEM 15",
+        "status": "checked"
+    },
+    {
+        "id": "16",
+        "item_name": "ITEM 16",
+        "status": "checked"
+    },
+    {
+        "id": "17",
+        "item_name": "ITEM 17",
+        "status": "checked"
+    },
+    {
+        "id": "18",
+        "item_name": "ITEM 18",
+        "status": "checked"
+    },
+    {
+        "id": "19",
+        "item_name": "ITEM 19",
+        "status": "checked"
+    },
+    {
+        "id": "20",
+        "item_name": "ITEM 20",
+        "status": "checked"
+    }
+]

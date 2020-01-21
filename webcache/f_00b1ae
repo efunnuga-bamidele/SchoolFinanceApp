@@ -1,0 +1,935 @@
+
+ <!-- value="1" -->
+<div class="modal-header">
+    <h5 class="modal-title" style="text-align: left;">Process Receipt For : <span style=" font-weight: bold;text-decoration: underline">efunnuga bamidele</span></h5>
+    <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+    
+</div>
+<form action="" method="POST">
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-4" >
+                          <h6 style=" font-weight: bold;text-decoration: underline"> BILLS DATA </h6>
+                </div>
+                <div class="col-sm-4">     
+                          <h6 style=" font-weight: bold;text-decoration: underline"> RECEIPT DATA </h6>
+                </div>
+                <div class="col-sm-4">
+                          <h6 style=" font-weight: bold;text-decoration: underline"> PENDING BALANCE </h6>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+             <div class="form-group row">
+                          <label class="col-sm-12 col-form-label" hidden><span class="text-primary">Surname</span></label>
+                 
+                            <input type="text" name='id' class="form-control" placeholder="Auto Generate id" value="1" hidden/>
+                                    </div>
+            <!-- Beginning of Input Section -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Surname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='surname' class="form-control" placeholder="Auto Generate Surname" required  readonly  value="efunnuga"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Surname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xsurname' class="form-control" placeholder="Auto Generate Surname" required  readonly  value="efunnuga"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Firstname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='firstname' class="form-control" placeholder="Auto Generate Firstname" required  readonly  value="bamidele"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Firstname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xfirstname' class="form-control" placeholder="Auto Generate Firstname" required  readonly  value="bamidele"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Othername</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='othername' class="form-control" placeholder="Auto Generate Othername" required  readonly  value="olusola"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Othername</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xothername' class="form-control" placeholder="Auto Generate Othername" required  readonly  value="olusola"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Class</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='class' class="form-control" placeholder="Auto Generate Class" required  readonly  value="Class 1"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Class</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xclass' class="form-control" placeholder="Auto Generate Class" required  readonly  value="Class 1"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Term</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='term' class="form-control" placeholder="Auto Generate Term" required  readonly  value="First Term"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Term</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xterm' class="form-control" placeholder="Auto Generate Term" required  readonly  value="First Term"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Session</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='session' class="form-control" placeholder="Auto Generate Session" required  readonly  value="2017 / 2018"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Session</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='xsession' class="form-control" placeholder="Auto Generate Session" required  readonly  value="2017 / 2018"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Bill Month</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='bmonth' class="form-control" placeholder="Auto Generate Bill Month" required  readonly  value="July"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Receipt Month*</span></label>
+                          <div class="form-control col-sm-12">
+                            <select class="form-control" name='rmonth' id="rmonth" type="option" required >
+                                <option ></option>
+                                <option >Janaury</option>
+                                <option >February</option>
+                                <option >March</option>
+                                <option >April</option>
+                                <option >May</option>
+                                <option >June</option>
+                                <option >July</option>
+                                <option >August</option>
+                                <option >September</option>
+                                <option >October</option>
+                                <option >November</option>
+                                <option >December</option>
+                              </select> 
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Bill Date</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='bdate' class="form-control" placeholder="Auto Generate Bill Date" required  readonly  value="05-07-2018"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Receipt Date*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='rdate' class="form-control" placeholder="Auto Generate Receipt Date" required value="07-07-2018"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <hr style="border-width: 2px">
+            <!-- Input Area -->
+             <div class="row">
+                <!-- row 1 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TUITION</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_1' id='item_1' class='form-control amount' value='20,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TUITION PAID</label>
+                         <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_1' id='xitem_1' class='form-control amountx' value='12,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TUITION BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_1' id='vitem_1' class='form-control' value='8000' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 2 -->
+            <div class="row">
+                <!-- row 2 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>DEVELOPMENT LEVY</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_2' id='item_2' class='form-control amount' value='5,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>DEVELOPMENT LEVY PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_2' id='xitem_2' class='form-control amountx' value='5,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>DEVELOPMENT LEVY BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_2' id='vitem_2' class='form-control' value='0' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 3 -->
+            <div class="row">
+                <!-- row 3 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TEST FEE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_3' id='item_3' class='form-control amount' value='2,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TEST FEE PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_3' id='xitem_3' class='form-control amountx' value='2,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TEST FEE BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_3' id='vitem_3' class='form-control' value='0' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 4 -->
+            <div class="row">
+                <!-- row 4 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TRANSPORT </label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_4' id='item_4' class='form-control amount' value='12,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TRANSPORT PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_4' id='xitem_4' class='form-control amountx' value='9,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>TRANSPORT BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_4' id='vitem_4' class='form-control' value='3000' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 5 -->
+            <div class="row">
+                <!-- row 5 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>SPORT</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_5' id='item_5' class='form-control amount' value='3,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class=' col-form-label col-md-12'>SPORT PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_5' id='xitem_5' class='form-control amountx' value='1,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>SPORT BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_5' id='vitem_5' class='form-control' value='2000' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+                <!-- 6 -->
+            <div class="row">
+                <!-- row 6 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>LESSON</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_6' id='item_6' class='form-control amount' value='4,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>LESSON PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_6' id='xitem_6' class='form-control amountx' value=''/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class=' col-form-label col-md-12'>LESSON BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_6' id='vitem_6' class='form-control' value='4000' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 7 -->
+            <div class="row">
+                <!-- row 7 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>MUSIC CLASS</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_7' id='item_7' class='form-control amount' value='1,200.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>MUSIC CLASS PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_7' id='xitem_7' class='form-control amountx' value=''/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>MUSIC CLASS BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_7' id='vitem_7' class='form-control' value='1200' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 8 -->
+            <div class="row">
+                <!-- row 8 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>UNIFORM</label>
+                          <div class='flex'>
+                          <span class='currency '>&#8358</span>
+                            <input type='text' name='item_8' id='item_8' class='form-control amount' value='7,800.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>UNIFORM PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_8' id='xitem_8' class='form-control amountx' value='7,000.00'/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>UNIFORM BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_8' id='vitem_8' class='form-control' value='800' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 9 -->
+            <div class="row">
+                <!-- row 9 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>STATIONARY</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_9' id='item_9' class='form-control amount' value='13,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>STATIONARY PAID</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='xitem_9' id='xitem_9' class='form-control amountx' value=''/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>STATIONARY BALANCE</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='vitem_9' id='vitem_9' class='form-control' value='13000' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 10 -->
+            <div class="row">
+                <!-- row 10 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 11 -->
+            <div class="row">
+                <!-- row 11 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 12 -->
+            <div class="row">
+                <!-- row 12 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 13 -->
+            <div class="row">
+                <!-- row 13 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 14 -->
+            <div class="row">
+                <!-- row 14 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 15 -->
+            <div class="row">
+                <!-- row 15 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 16 -->
+            <div class="row">
+                <!-- row 16 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 17 -->
+            <div class="row">
+                <!-- row 17 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- 18 -->
+            <div class="row">
+                <!-- row 18 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                      <!-- input end -->
+            </div>
+            <!-- TOTAL -->
+            <hr style="border-width: 2px">
+
+             <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-form-label"><span class="text-primary" style="font-weight: bold;">BILL TOTAL AMOUNT</span></label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type="text" name='b_total' id='b_total' class="form-control" readonly  value="68000" style="font-weight: bold;"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-form-label"><span class="text-success" style="font-weight: bold;">TOTAL AMOUNT PAID</span></label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type="text" name='p_total' id='p_total' class="form-control" required  readonly  value="36000 " style="font-weight: bold;"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-form-label" style="font-weight: bold;"><span class="text-danger">TOTAL AMOUNT BALANCE</span></label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type="text" name='t_total' id="t_total" class="form-control" readonly  value="32000" style="font-weight: bold;"/>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            <!-- End Of Input Section -->
+        </div>
+        <div class="form-group">
+            <div class="row">
+                
+            </div>
+        </div>
+        <div class="modal-footer">
+           <div class="input-group mb-3 col-md-6">
+                           <div class="input-group-append">
+                            <span class="input-group-text">Paid Method</span>
+                          </div>
+                          <select class="form-control" name='bank1' id="bank1" type="option" required>
+                              <option></option>
+                              <option>CASH</option>
+                                                                                                <option>FCMB</option>
+                                                                  <option>GTB</option>
+                                                                </select>
+                                
+                      </div>
+            <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+            <button type="submit" name="submit" formaction="receipt_report.php" class="btn btn-primary">Process</button>
+        </div>
+    </div>
+</form>
+<!-- auto calculation sctipt -->
+<!-- 1 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_1, #xitem_1").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_1").val(Number($("#item_1").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_1").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+    <!-- 2 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_2, #xitem_2").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_2").val(Number($("#item_2").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_2").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+     <!-- 3 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_3, #xitem_3").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_3").val(Number($("#item_3").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_3").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+     <!-- 4 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_4, #xitem_4").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_4").val(Number($("#item_4").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_4").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+      <!-- 5 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_5, #xitem_5").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_5").val(Number($("#item_5").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_5").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 6 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_6, #xitem_6").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_6").val(Number($("#item_6").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_6").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 7 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_7, #xitem_7").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_7").val(Number($("#item_7").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_7").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 8 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_8, #xitem_8").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_8").val(Number($("#item_8").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_8").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 9 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_9, #xitem_9").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_9").val(Number($("#item_9").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_9").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 10 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_10, #xitem_10").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_10").val(Number($("#item_10").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_10").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 11 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_11, #xitem_11").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_11").val(Number($("#item_11").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_11").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 12 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_12, #xitem_12").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_12").val(Number($("#item_12").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_12").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 13 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_13, #xitem_13").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_13").val(Number($("#item_13").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_13").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 14 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_14, #xitem_14").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_14").val(Number($("#item_14").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_14").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 15 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_15, #xitem_15").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_15").val(Number($("#item_15").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_15").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+       <!-- 16 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_16, #xitem_16").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_16").val(Number($("#item_16").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_16").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+
+          <!-- 17 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_17, #xitem_17").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_17").val(Number($("#item_17").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_17").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+          <!-- 18 -->
+  <script type="text/javascript">
+     $(function() {
+            $("#item_18, #xitem_18").on("keydown keyup", sub);
+            function sub() {
+            $("#vitem_18").val(Number($("#item_18").val().replace(/[,\s?₦]/g, "")) - Number($("#xitem_18").val().replace(/[,\s?₦]/g, "")));
+            }
+        });
+    </script>
+
+    <!-- auto calculation sctipt  for PAID-->
+<script type="text/javascript">
+$('.amountx').keyup(function() {
+    var result = 0;
+    $('#p_total').attr('value', function() {
+        $('.amountx').each(function() {
+            if ($(this).val() !== '') {
+                result += parseFloat($(this).val().replace(/[,\s?₦]/g, ""));
+            }
+        });
+        return result;
+    });
+});
+</script>
+<!-- auto calculation for balance -->
+<script type="text/javascript">
+$('.amountx').keyup(function() {
+    var result = 0;
+    $('#t_total').attr('value', function() {
+        $('.amountx').each(function() {
+            result = Number($("#b_total").val().replace(/[,\s?₦]/g, "")) - Number($("#p_total").val().replace(/[,\s?₦]/g, ""));  
+        });
+        
+        return result;
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+ $('.amountx').blur(function() {
+        $('.amountx').html(null);
+        // $(this).formatCurrency({ colorize: true, negativeFormat: '-%s%n', roundToDecimalPlace: 2 });
+        $(".amountx").maskMoney({prefix:'', allowNegative: true, thousands:',',decimal:'.', affixesStay: false});
+
+      })
+        .keypress(function(e) {
+        var e = window.event || e;
+        var keyUnicode = e.charCode || e.keyCode;
+        if (e !== undefined) {
+          switch (keyUnicode) {
+            case 16: break; // Shift
+            case 17: break; // Ctrl
+            case 18: break; // Alt
+            case 27: this.value = ''; break; // Esc: clear entry
+            case 35: break; // End
+            case 36: break; // Home
+            case 37: break; // cursor left
+            case 38: break; // cursor up
+            case 39: break; // cursor right
+            case 40: break; // cursor down
+            case 78: break; // N (Opera 9.63+ maps the "." from the number key section to the "N" key too!) (See: http://unixpapa.com/js/key.html search for ". Del")
+            case 110: break; // . number block (Opera 9.63+ maps the "." from the number block to the "N" key (78) !!!)
+            case 190: break; // .
+            default: $(this).maskMoney({prefix:'', allowNegative: true, thousands:',',decimal:'.', affixesStay: false});
+          }
+        }
+      });
+      </script>

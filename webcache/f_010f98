@@ -1,0 +1,400 @@
+
+ <!-- value="2" -->
+<div class="modal-header">
+    <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+    
+</div>
+<form action="" method="POST">  
+    <div class="modal-body">
+        <h5 class="modal-title" style="text-align: center;">Process Report Card For : <span style=" font-weight: bold;text-decoration: underline">efunnuga bamidele</span></h5>
+        <hr>
+        <div class="form-group">
+             
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Surname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='surname' class="form-control" placeholder="Auto Generate Surname" required  readonly  value="efunnuga"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Firstname</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='firstname' class="form-control" placeholder="Auto Generate Surname" required  readonly  value="bamidele"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                   <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Othername</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='othername' class="form-control" placeholder="Auto Generate Surname" required  readonly  value="olusola"/>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Gender</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='gender' class="form-control" placeholder="Auto Generate Gender" required  readonly  value="Male"/>
+                          </div>
+                        </div>
+
+                </div>
+                <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Class</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='class' class="form-control" placeholder="Auto Generate Class" required  readonly  value="DIAMOND"/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Admission_Date</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='admission' class="form-control" placeholder="Auto Generate Admission Date" required  readonly  value="20/02/2001"/>
+                          </div>
+                        </div>
+                </div>
+            </div>
+      
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Term</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='term' class="form-control" placeholder="Auto Generate Term" required  readonly  value="First Term"/>
+                          </div>
+                        </div>
+                      </div>
+               
+                <div class="col-sm-4">
+                      <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Session</span></label>
+                          <div class="col-sm-12">
+                           <input type="text" name='Session' class="form-control" placeholder="Auto Generate Session" required  readonly  value="2018 / 2019"/>
+                          </div>
+                        </div>  
+                </div>
+               <div class="col-sm-4">
+                      <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-primary">Report Month</span></label>
+                          <div class="col-sm-12">
+                           <input type="text" name='Month' class="form-control" placeholder="Auto Generate Month" required  readonly  value="Janaury"/>
+                          </div>
+                        </div>  
+                </div>
+            </div>
+           
+            
+            <div class="row">
+              <div class="col-sm-4">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Report Date*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='date' class="form-control" placeholder="Auto Generate Receipt Date" required value="05-07-2018" readonly/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Teacher*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Teacher' class="form-control" placeholder="Auto Generate Teacher" required value="Efunnuga Janet" readonly/>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Grade*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='grade' class="form-control" placeholder="Enter Student Score Grade" required value="pass" readonly/>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            <hr style="border-width: 2px">
+            <!-- Input Area -->
+             <div class="row">
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>MATHS</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_1' id='item_1' class='form-control' value='78' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ENGLISH</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_2' id='item_2' class='form-control' value='78' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>CRK</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_3' id='item_3' class='form-control' value='66' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                    </div>
+            <!-- 4 -->
+            <div class="row">
+                <!-- row 4 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>BIOLOGY </label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_4' id='item_4' class='form-control' value='77' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>CHEMISTRY</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_5' id='item_5' class='form-control' value='88' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>PHYSICS</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_6' id='item_6' class='form-control' value='99' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 7 -->
+            <div class="row">
+                <!-- row 7 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>PHE</label>
+                         <div class='col-sm-12'>
+                            <input type='text' name='item_7' id='item_7' class='form-control' value='55' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>BASIC SCIENCE</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_8' id='item_8' class='form-control' value='66' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>GEOGRAPHY</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_9' id='item_9' class='form-control' value='77' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 10 -->
+            <div class="row">
+                <!-- row 10 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 10</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_10' id='item_10' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 11</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_11' id='item_11' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 12</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_12' id='item_12' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 13 -->
+            <div class="row">
+      
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 13</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_13' id='item_13' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 14</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_14' id='item_14' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                            
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 15</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_15' id='item_15' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 16 -->
+            <div class="row">
+                <!-- row 16 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 16</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_16' id='item_16' class='form-control amount' value=' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                      <!-- input end -->
+            </div>
+            <!-- 17 -->
+            <div class="row">
+                <!-- row 17 -->
+                   <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 17</label>
+                          <div class='col-sm-12'>
+                            <input type='text' name='item_17' id='item_17' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                        
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 18 </label>
+                         <div class='col-sm-12'>
+                            <input type='text' name='item_18' id='item_18' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                               
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 19 </label>
+                         <div class='col-sm-12'>
+                            <input type='text' name='item_19' id='item_19' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                               
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>ITEM 20 </label>
+                         <div class='col-sm-12'>
+                            <input type='text' name='item_20' id='item_20' class='form-control' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                             
+
+                      <!-- input end -->
+            </div>
+            <!-- TOTAL -->
+            <hr style="border-width: 2px">
+
+            
+        <div class="modal-footer">
+          
+            <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+            <button type="submit" name="submit" onclick='window.print();' class="btn btn-primary">Print</button>
+        </div>
+    </div>
+</form>

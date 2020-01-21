@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "item_name": "DIAMOND",
+        "level": "LEVEL 1"
+    },
+    {
+        "id": "2",
+        "item_name": "SILVER",
+        "level": "LEVEL 2"
+    },
+    {
+        "id": "3",
+        "item_name": "GOLD",
+        "level": "LEVEL 3"
+    },
+    {
+        "id": "4",
+        "item_name": "RUBY",
+        "level": "LEVEL 4"
+    }
+]

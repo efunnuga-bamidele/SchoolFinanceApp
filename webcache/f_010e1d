@@ -1,0 +1,444 @@
+
+
+
+ <!-- value="5" -->
+<div class="modal-header">
+    <h5 class="modal-title" style="text-align: left;"><span style=" font-weight: bold;text-decoration: underline"></span></h5>
+    <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+    
+</div>
+<form action="" method="POST">
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12" >
+                          <h6 style=" font-weight: bold;text-decoration: underline"> PAYSLIP DATA </h6>
+                </div>
+             </div>
+        </div>
+        <div class="form-group">
+             <div class="form-group row">
+                          <label class="col-sm-12 col-form-label" hidden><span class="text-primary">id</span></label>
+                 
+                            <input type="text" name='id' class="form-control" placeholder="Auto Generate id" value="5" hidden/>
+           </div>
+            <!-- Beginning of Input Section -->
+             <p class="card-description text-success">
+    Staff Personal Details</p>
+                <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Staff No*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Staff_no' class="form-control" placeholder="Auto Generate Staff_no" required  readonly  value="AKT-006"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Surname*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Surname' class="form-control" placeholder="Auto Generate Surname" required readonly value="Efunnuga"/>
+                          </div>
+                        </div>
+                      </div>                 
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Firstname*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Firstname' class="form-control" placeholder="Auto Generate Firstname" required readonly value="Janet"/>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Othername*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='othername' class="form-control" placeholder="Auto Generate Othername" required readonly value="omoo"/>
+                          </div>
+                        </div>
+                      </div>               
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Job Description*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Job_Description' class="form-control" placeholder="Auto Generate Job_Description" required readonly value="Trader"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Date*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Date' class="form-control" required value="23-07-2018"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="card-description text-success">
+    Account Details</p>  
+   
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Bank_name*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Bank_name' class="form-control" placeholder="Auto Generate Bank_name" required readonly value="SKYE"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-danger">Account_No*</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='Account_No' class="form-control" placeholder="Auto Generate Account_No" required readonly value="0101010101"/>
+                          </div>
+                        </div>
+                      </div>                
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-default">Session</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='session' class="form-control" placeholder="Auto Generate Session" required  readonly  value="2017 / 2018"/>
+                          </div>
+                        </div>
+                      </div>
+                      
+                   
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label"><span class="text-default">Bill Month</span></label>
+                          <div class="col-sm-12">
+                            <input type="text" name='bmonth' class="form-control" placeholder="Auto Generate Bill Month" required  readonly  value="July"/>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                       </div>
+                    <hr style="border: solid 1.5px black">
+  <p class="card-description text-success">
+     Payment Details</p>
+                <!-- row 1 -->
+                <div class="row">
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label col-md-12'>BASIC SALARY</label>
+                          <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_1' id='item_1' class='form-control amount' value='400,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                                          
+                      <!-- input end -->
+                      <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label store'>HOUSING ALLOWANCE</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_2' id='item_2' class='form-control amount' value='20,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>TRANSPORT ALLOWANCE</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                           <input type='text' name='item_3' id='item_3' class='form-control amount' value='15,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                  </div>
+                  <!-- row 2 -->
+                <div class="row">
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>SHIFT ALLOWANCE</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_4' id='item_4' class='form-control amount'  value='10,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                      <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>FREE ISSUE</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_5' class='form-control amount' id='item_5' value='8,500.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>UTILITIES ALLOWANCE</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_6' class='form-control amount' id='item_6' value='4,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                  </div>
+                   <!-- row 3 -->
+                   <div class="row">
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>OVERTIME</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_7' class='form-control amount' id='item_7' value='3,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                      <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>PENSION DEDUCTION</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_8' class='form-control amount'  id='item_8' value='-20,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>PAYE DEDUCTION</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_9' class='form-control amount' id='item_9' value='-40,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                  </div>
+                    <!-- row 4 -->
+                    <div class="row">
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>UNION DEDUCTION</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_10' class='form-control amount' id='item_10' value='-12,000.00' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                      <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 11</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_11' class='form-control amount'  id='item_11' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 12</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_12' class='form-control amount' id='item_12' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                   </div>
+                  <!-- row 6 -->
+                  <div class="row">
+                  
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 13</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_13' class='form-control amount'  id='item_13' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                      <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 14</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_14' class='form-control amount' id='item_14' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 15</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_15' class='form-control amount' id='item_15' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                  </div>
+                  <!-- row 6 -->
+                  <div class="row">
+                    <!-- Conditioned Input areas -->
+                    <!-- input begin-->
+                     
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 16</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_16' class='form-control amount'  id='item_16' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                      <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 17</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_17' class='form-control' amount id='item_17' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end --> 
+                       <!-- input begin-->
+                    
+                        <div class='col-md-4'>
+                        <div class='form-group row'>
+                          <label class='col-form-label'>ITEM 18</label>
+                           <div class='flex'>
+                          <span class='currency'>&#8358</span>
+                            <input type='text' name='item_18' class='form-control amount' id='item_18' value='' readonly/>
+                          </div>
+                        </div>
+                        </div>
+
+                                              <!-- input end -->
+                  </div>
+                   <hr style="border: solid 1.5px black">
+                   <!-- total section -->
+                    <div class="row">
+                      <div class="col-md-3">
+                        
+                      </div>
+                      <div class="col-md-3">
+                       
+                      </div>  
+                       <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                       
+                      </div>
+                        <div class="row">
+                         
+                          <label class="col-sm-12 col-form-label" style="text-align: center;font-weight: bold;">Total Amount (AUTO)</label>
+
+                          </div>
+                           <div class='flex col-sm-12'>
+                          <span class='currency'>&#8358</span>
+                            <input type="text" name='item_19' class="form-control" id="item_19" placeholder="Auto Generate Sum" readonly style="font-weight: bold; text-align: center; font-size: 16px;" data-thousands="," data-decimal="." value='388500' readonly/>
+                          </div>
+                        </div>
+                      </div>                
+                    </div>
+    
+        <div class="modal-footer">
+        
+            <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+            <button type="submit" name="submit" class="btn btn-primary" id="btnPrint" onclick="window.print();">Print</button>
+        </div>
+    </div>
+</form>
+
+<!-- <script type="text/javascript">
+document.getElementById("btnPrint").onclick = function () {
+    printElement(document.getElementById("printThis"));
+}
+
+function printElement(elem) {
+    var domClone = elem.cloneNode(true);
+    
+    var $printSection = document.getElementById("printSection");
+    
+    if (!$printSection) {
+        var $printSection = document.createElement("div");
+        $printSection.id = "printSection";
+        document.body.appendChild($printSection);
+    }
+    
+    $printSection.innerHTML = "";
+    $printSection.appendChild(domClone);
+    window.print();
+}
+</script> -->
+
+  

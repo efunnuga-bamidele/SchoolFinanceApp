@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "item_name": "BASIC SALARY",
+        "status": "checked"
+    },
+    {
+        "id": "2",
+        "item_name": "HOUSING ALLOWANCE",
+        "status": "checked"
+    },
+    {
+        "id": "3",
+        "item_name": "TRANSPORT ALLOWANCE",
+        "status": "checked"
+    },
+    {
+        "id": "4",
+        "item_name": "SHIFT ALLOWANCE",
+        "status": "checked"
+    },
+    {
+        "id": "5",
+        "item_name": "FREE ISSUE",
+        "status": "checked"
+    },
+    {
+        "id": "6",
+        "item_name": "UTILITIES ALLOWANCE",
+        "status": "checked"
+    },
+    {
+        "id": "7",
+        "item_name": "OVERTIME",
+        "status": "checked"
+    },
+    {
+        "id": "8",
+        "item_name": "PENSION DEDUCTION",
+        "status": "checked"
+    },
+    {
+        "id": "9",
+        "item_name": "PAYE DEDUCTION",
+        "status": "checked"
+    },
+    {
+        "id": "10",
+        "item_name": "UNION DEDUCTION",
+        "status": "checked"
+    },
+    {
+        "id": "11",
+        "item_name": "ITEM 11",
+        "status": "unchecked"
+    },
+    {
+        "id": "12",
+        "item_name": "ITEM 12",
+        "status": "unchecked"
+    },
+    {
+        "id": "13",
+        "item_name": "ITEM 13",
+        "status": "unchecked"
+    },
+    {
+        "id": "14",
+        "item_name": "ITEM 14",
+        "status": "unchecked"
+    },
+    {
+        "id": "15",
+        "item_name": "ITEM 15",
+        "status": "unchecked"
+    },
+    {
+        "id": "16",
+        "item_name": "ITEM 16",
+        "status": "unchecked"
+    },
+    {
+        "id": "17",
+        "item_name": "ITEM 17",
+        "status": "unchecked"
+    },
+    {
+        "id": "18",
+        "item_name": "ITEM 18",
+        "status": "unchecked"
+    }
+]
